@@ -3,11 +3,8 @@
     "@parcel/config-default"
   ],
   "transformers": {
-    "url:*": [
-      "@parcel/transformer-raw"
-    ],
     "*.hbs": [
-      "parcel-transformer-handlebars"
+      "parcel-transformer-hbs"
     ]
   },
   "reporters": [
